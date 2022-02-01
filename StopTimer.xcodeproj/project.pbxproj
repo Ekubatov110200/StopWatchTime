@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		C6550AE127A957A2002335BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6550AE027A957A2002335BF /* AppDelegate.swift */; };
 		C6550AE327A957A2002335BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6550AE227A957A2002335BF /* SceneDelegate.swift */; };
-		C6550AE527A957A2002335BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6550AE427A957A2002335BF /* ViewController.swift */; };
 		C6550AE827A957A2002335BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6550AE627A957A2002335BF /* Main.storyboard */; };
 		C6550AEA27A957A9002335BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6550AE927A957A9002335BF /* Assets.xcassets */; };
 		C6550AED27A957A9002335BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6550AEB27A957A9002335BF /* LaunchScreen.storyboard */; };
+		C6550AF727A9599E002335BF /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6550AF627A9599E002335BF /* StopwatchViewController.swift */; };
+		C6550AF927A959B1002335BF /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6550AF827A959B1002335BF /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6550ADD27A957A2002335BF /* StopTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6550AE027A957A2002335BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6550AE227A957A2002335BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6550AE427A957A2002335BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6550AE727A957A2002335BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6550AE927A957A9002335BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6550AEC27A957A9002335BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6550AEE27A957A9002335BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6550AF627A9599E002335BF /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		C6550AF827A959B1002335BF /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				C6550AE027A957A2002335BF /* AppDelegate.swift */,
 				C6550AE227A957A2002335BF /* SceneDelegate.swift */,
-				C6550AE427A957A2002335BF /* ViewController.swift */,
+				C6550AF627A9599E002335BF /* StopwatchViewController.swift */,
+				C6550AF827A959B1002335BF /* TimerViewController.swift */,
 				C6550AE627A957A2002335BF /* Main.storyboard */,
 				C6550AE927A957A9002335BF /* Assets.xcassets */,
 				C6550AEB27A957A9002335BF /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6550AE527A957A2002335BF /* ViewController.swift in Sources */,
+				C6550AF927A959B1002335BF /* TimerViewController.swift in Sources */,
+				C6550AF727A9599E002335BF /* StopwatchViewController.swift in Sources */,
 				C6550AE127A957A2002335BF /* AppDelegate.swift in Sources */,
 				C6550AE327A957A2002335BF /* SceneDelegate.swift in Sources */,
 			);
